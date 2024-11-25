@@ -55,6 +55,6 @@ button{
     box-shadow: 6px 5px 8px rgb(155, 88, 47); 
     font-size: 20px;
    color: white;
-   background-color: #000000;
-   
+   background: url("https://static.vecteezy.com/ti/vetor-gratis/p1/5661858-fundo-de-chocolate-derretido-com-bolos-de-chocolate-vetor.jpg");
+   background-size: cover;
    }
