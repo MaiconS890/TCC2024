@@ -1,15 +1,15 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // Agora, o código é executado após o DOM estar completamente carregado
+    
     document.querySelector('#search-box').addEventListener('input', function() {
-        const query = this.value.toLowerCase(); // Obtém o valor da pesquisa
-        const recipes = document.querySelectorAll('.recipe'); // Seleciona todos os elementos de receita
+        const query = this.value.toLowerCase(); 
+        const recipes = document.querySelectorAll('.recipe'); 
         
         recipes.forEach(function(recipe) {
-            const title = recipe.getAttribute('data-title').toLowerCase(); // Pega o título da receita
+            const title = recipe.getAttribute('data-title').toLowerCase(); 
             if (title.includes(query)) {
-                recipe.style.display = 'block'; // Exibe se o título combinar
+                recipe.style.display = 'block';
             } else {
-                recipe.style.display = 'none'; // Oculta se não combinar
+                recipe.style.display = 'none'; 
             }
         });
     });

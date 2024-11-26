@@ -19,12 +19,15 @@ body {
    
   }
   .foto h3{
-    height: 258px;
+    height: 326px;
     background-image: url('https://static.vecteezy.com/system/resources/previews/024/958/757/non_2x/realistic-chocolate-dripping-isolated-object-transparent-background-ai-generated-free-png.png');
 background-size: cover;
   }
   .logo{
-    margin-top: -96px;
+    margin-top: -113px;
+  }
+  .coroca{
+    margin-top: 30px;
   }
   header{
     margin: -60px;
