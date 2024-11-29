@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-size: cover ;
+    background-image:url("../assets/bolo-a-beça.jpg");
+    background-repeat: no-repeat;
+    
+}
+
+h1 {
+    background-color: #ff9c3a;
+    color: #000000;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 35px;
+   margin: 30px 30px;
+   border-radius: 20px 20px;
+   box-shadow: #a55c13 5px 5px;
+}
+
+h2 {
+    color: #000000; 
+    margin-top: 20px;
+    background-color: #f1dd2eee;
+    margin: 30px 30px;
+    border-radius: 20px 20px;
+    font-size: 20px;
+    text-align: center;
+    box-shadow: #ad9726 5px 5px;
+}
+
+h3 {
+    color: #000000; 
+    margin: 10px 0;
+    background-color: #e9c440;
+    text-align: center;
+    margin: 30px 30px;
+    border-radius: 20px 20px;
+    box-shadow: #cea137 5px 5px;
+}
+li {
+    list-style: none;
+  }
+
+p {
+    line-height: 1.5;
+   
+}
+
+button{
+    border-radius: 100% 100% 90% 100%;
+    width: 150px; 
+    height: 70px;
+    box-shadow: 6px 5px 8px rgb(155, 88, 47); 
+    font-size: 20px;
+   color: white;
+   background: url("https://static.vecteezy.com/ti/vetor-gratis/p1/5661858-fundo-de-chocolate-derretido-com-bolos-de-chocolate-vetor.jpg");
+   background-size: cover;
+   }
