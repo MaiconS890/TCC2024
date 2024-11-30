@@ -145,6 +145,8 @@ p{
   list-style: none;
   margin: 0;
   padding: 0;
+
+ 
 }
 
 .cards_item {
@@ -197,6 +199,7 @@ p{
   background: repeating-linear-gradient(#0000 0 calc(1.2rem - 1px),#66afe1 0 1.2rem) right bottom /100% 100%,linear-gradient(red 0 0) 30px 0/2px 100% #fff;
   background-repeat: no-repeat;
   line-height: 1.2rem;
+  
 }
 
 .card_content {
@@ -416,3 +419,20 @@ li {
 .example-2 .icon-content a[data-social="youtube"] ~ .tooltip {
   background-color: #ff0000;
 }
+
+.video{
+  margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -7,9 +7,60 @@
  <link rel="stylesheet" href="../CSS/receitaAjuda.css">
  <script src="../JS/botao.js"></script>
 </head>
+ 
+   <button id="myBtn">Créditos</button>
+   
 
-<body>
+   <div id="myModal" class="modal">
+   
 
+     <div class="modal-content">
+       <div class="modal-header">
+         <span class="close">&times;</span>
+         <h2>Vitor Noia</h2>
+       </div>
+       <div class="modal-body">
+         <p>Receitas MVKL</p>
+         <p>Doces e Salgados
+   
+         </p>
+         
+       </div>
+       <div class="modal-footer">
+         <h3>Kauã doido</h3>
+       </div>
+     </div>
+   
+   </div>
+ 
+   <script>
+
+   var modal = document.getElementById("myModal");
+   
+
+   var btn = document.getElementById("myBtn");
+   
+
+   var span = document.getElementsByClassName("close")[0];
+   
+
+   btn.onclick = function() {
+     modal.style.display = "block";
+   }
+   
+
+   span.onclick = function() {
+     modal.style.display = "none";
+   }
+   
+  
+   window.onclick = function(event) {
+     if (event.target == modal) {
+       modal.style.display = "none";
+     }
+   }
+   </script>
+   
    <button onclick="voltarAjuda()"> <li>voltar</li></button>
     
    <h1> Precisa de Ajuda?</h1>
@@ -19,11 +70,14 @@
    <h3>+55 11 91259-8366-Atendimento ao Cliente</h3>
    <h3>+55 11 93718-7270-Suporte Técnico</h3>
    <h3>+55 11 97825-3600-Whatsapp</h3>
-   <h3>+55 11 94031-1072-</h3>
+   <h3>+55 11 94031-1072-Telefone </h3>
    
    <h2> Estamos disponíveis para ajudar de segunda a sexta-feira, das 12h às 18h. Sua satisfação é nossa prioridade!</h2>
     
-
-      
+   <h3> Como funciona o Nosso site </h3>
+      <img width="1350" height="700" src="../assets/Plus Minus Interesting Education Whiteboard in Yellow Orange Green Lined Style.png" alt="">
+      <h2>📍 ATENÇÃO 📍</h2>
+   <h3>As fotos ilustrativas a cima podem não estar mais parecidas com as do site atualmente, caso tenha alguma duvida entre em contato</h3>
+   
 </body>
 </html>
