@@ -219,40 +219,9 @@ html {
 }
 
 
-.button-89 {
-  --b: 4px;  
-  --s: .50em; 
-  --color: #430096;
-  
-  padding: calc(.5em + var(--s)) calc(.9em + var(--s));
-  color: var(--color);
-  --_p: var(--s);
-  background:
-    conic-gradient(from 90deg at var(--b) var(--b),#00ffe1 90deg,var(--color) 0)
-    var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
-  transition: .19s linear, color 0s, background-color 0s;
-  outline: var(--b) solid #1500ff97;
-  outline-offset: .6em;
-  font-size: 16px;
 
-  border: 0;
+ 
 
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-}
-
-.button-89:hover,
-.button-89:focus-visible{
-  --_p: 0px;
-  outline-color: var(--color);
-  outline-offset: .05em;
-}
-
-.button-89:active {
-  background: var(--color);
-  color: #ffe431;
-}
 
 .check {
   cursor: pointer;
