@@ -5,61 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
  <link rel="stylesheet" href="../CSS/receitaAjuda.css">
- <script src="../JS/botao.js"></script>
+
 </head>
  
-   <button id="myBtn">Créditos</button>
+<button id="btnAbrirModal">Créditos</button>
    
-
-   <div id="myModal" class="modal">
-   
-
-     <div class="modal-content">
-       <div class="modal-header">
-         <span class="close">&times;</span>
-         <h2>Vitor Noia</h2>
-       </div>
-       <div class="modal-body">
-         <p>Receitas MVKL</p>
-         <p>Doces e Salgados
-   
-         </p>
-         
-       </div>
-       <div class="modal-footer">
-         <h3>Kauã doido</h3>
-       </div>
-     </div>
-   
-   </div>
- 
-   <script>
-
-   var modal = document.getElementById("myModal");
-   
-
-   var btn = document.getElementById("myBtn");
-   
-
-   var span = document.getElementsByClassName("close")[0];
-   
-
-   btn.onclick = function() {
-     modal.style.display = "block";
-   }
-   
-
-   span.onclick = function() {
-     modal.style.display = "none";
-   }
-   
-  
-   window.onclick = function(event) {
-     if (event.target == modal) {
-       modal.style.display = "none";
-     }
-   }
-   </script>
+  <dialog id="modal" >
+    <span id="closeModalBtn">&times;</span>
+    <h2>Vitor Noia</h2>
+      <div class="modal-body">
+        <p>Receitas MVKL</p>
+        <p>Doces e Salgados </p>
+        <h3>Kauã doido</h3>
+      </div>
+  </dialog>
    
    <button onclick="voltarAjuda()"> <li>voltar</li></button>
     
@@ -78,6 +37,7 @@
       <img width="1350" height="700" src="../assets/Plus Minus Interesting Education Whiteboard in Yellow Orange Green Lined Style.png" alt="">
       <h2>📍 ATENÇÃO 📍</h2>
    <h3>As fotos ilustrativas a cima podem não estar mais parecidas com as do site atualmente, caso tenha alguma duvida entre em contato</h3>
-   
+   <script src="../JS/botao.js" ></script>
+   <script src="../JS/modal.js"></script>
 </body>
 </html>
