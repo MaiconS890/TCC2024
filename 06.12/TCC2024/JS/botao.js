@@ -1,14 +1,14 @@
 function redirecionarDoce() {
    
-    window.location.href = "../HTML/receitaPrincipal.html";
+    window.location.href = "./HTML/receitaPrincipal.html";
 }
 function redirecionarSalgado() {
     
-    window.location.href = "../HTML/receitaPrincipal2.html";
+    window.location.href = "./HTML/receitaPrincipal2.html";
 }
 function redirecionarAjuda() {
     
-    window.location.href = "../HTML/receitaAjuda.html";
+    window.location.href = "./HTML/receitaAjuda.html";
 }
 function voltarAjuda() {
     
