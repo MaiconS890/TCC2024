@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     
     document.querySelector('#search-box').addEventListener('input', function() {
-        const query = this.value.toLowerCase(); 
+         const query = this.value.toLowerCase();
         const recipes = document.querySelectorAll('.recipe'); 
         
         recipes.forEach(function(recipe) {
