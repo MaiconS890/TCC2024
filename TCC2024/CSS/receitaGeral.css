@@ -1,4 +1,67 @@
+@media (max-width: 768px) {
+  body {
+    padding: 0 10px;
+  }
 
+  header {
+    font-size: 20px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  button {
+    width: 120px;
+    height: 60px;
+    font-size: 18px;
+  }
+
+  .hero h2 {
+    font-size: 36px;
+  }
+
+  .hero p {
+    font-size: 18px;
+  }
+
+  .cards {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+}
+
+@media (max-width: 480px) {
+  header {
+    font-size: 18px;
+  }
+
+  .logo {
+    max-width: 80%;
+  }
+
+  nav ul li {
+    font-size: 18px;
+  }
+
+  button {
+    width: 100px;
+    height: 50px;
+    font-size: 16px;
+  }
+
+  .hero h2 {
+    font-size: 30px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
 body {
     font-family: Arial, sans-serif;
     margin: 0;
